@@ -3,16 +3,18 @@ package com.flowhealth;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Random;
+
 public class ExampleTest {
 
     @Test
     void firstTest() {
-        Assertions.assertTrue(3<2);
+        Assertions.assertTrue(new Random().nextInt() > 1 );
     }
 
     @Test
     void secondTest() {
-        Assertions.assertTrue(10>=1);
+        Assertions.assertTrue(new Random().nextInt() < 10);
     }
 
     @Test
