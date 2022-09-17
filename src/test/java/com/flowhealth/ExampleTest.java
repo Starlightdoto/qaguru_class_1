@@ -7,7 +7,7 @@ public class ExampleTest {
 
     @Test
     void firstTest() {
-        Assertions.assertTrue(3<2);
+        Assertions.assertTrue(10>=2);
     }
 
     @Test
@@ -17,6 +17,6 @@ public class ExampleTest {
 
     @Test
     void thirdTest() {
-        Assertions.assertFalse(0>3);
+        Assertions.assertFalse(-1  > 5);
     }
 }
