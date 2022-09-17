@@ -14,4 +14,9 @@ public class ExampleTest {
     void secondTest() {
         Assertions.assertTrue(10>=1);
     }
+
+    @Test
+    void thirdTest() {
+        Assertions.assertFalse(0>3);
+    }
 }
